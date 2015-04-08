@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="ipaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="port" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Settings" positionX="261" positionY="198" width="128" height="75"/>
+    </elements>
+</model>

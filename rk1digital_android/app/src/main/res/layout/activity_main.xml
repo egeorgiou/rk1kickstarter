@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mymobilerobots.rk1digital.app.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_ip_address"
+        android:id="@+id/ipaddressTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_port_number"
+        android:id="@+id/portnumberTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_voltage"
+        android:id="@+id/voltageTextView"
+        android:layout_below="@+id/portnumberTextView"
+        android:layout_alignEnd="@+id/portnumberTextView" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D10"
+        android:id="@+id/d10switch"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ipaddressTextView" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D11"
+        android:id="@+id/d11switch"
+        android:checked="false"
+        android:layout_below="@+id/d10switch"
+        android:layout_toRightOf="@+id/ipaddressTextView"
+        android:layout_alignEnd="@+id/d10switch" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D12"
+        android:id="@+id/d12switch"
+        android:layout_alignStart="@+id/d11switch"
+        android:checked="false"
+        android:layout_below="@+id/d11switch"
+        android:layout_toRightOf="@+id/ipaddressTextView" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D13"
+        android:id="@+id/d13switch"
+        android:checked="false"
+        android:layout_below="@+id/d12switch"
+        android:layout_toRightOf="@+id/ipaddressTextView"
+        android:layout_alignEnd="@+id/d12switch" />
+
+</RelativeLayout>

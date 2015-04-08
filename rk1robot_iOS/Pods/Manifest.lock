@@ -1,0 +1,19 @@
+PODS:
+  - CocoaAsyncSocket (7.3.4)
+  - MBProgressHUD (0.8)
+  - Reachability (3.1.1)
+  - TestFlightSDK (3.0.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - MBProgressHUD
+  - Reachability
+  - TestFlightSDK
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 534d09416f992fd51efb23f534742ce70b3a7999
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  TestFlightSDK: 71e3e78d3a46144dbad975a4bf80a14dae6a818a
+
+COCOAPODS: 0.29.0

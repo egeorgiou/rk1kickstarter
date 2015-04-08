@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rk1robot</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_ip_address">IP Address</string>
+    <string name="text_port_number">Port Number</string>
+    <string name="text_voltage">0.00v</string>
+
+    <string name="pref_user_profile">User Settings</string>
+    <string name="pref_ip_address">IP Address</string>
+    <string name="pref_ip_address_summary">Set your IP address</string>
+    <string name="pref_port_number">Port Number</string>
+    <string name="pref_port_number_summary">Set your port number</string>
+
+</resources>
